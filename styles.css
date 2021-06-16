@@ -15,10 +15,6 @@ body {
   padding: 20px 0;
   text-align: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 100;
 }
 .div1 p {
   color: white;
@@ -204,8 +200,12 @@ img {
   }
   .div2 {
     background-color: white;
-    height: 100vh;
-    background-size: cover;
+    height: 75vh;
+    background-image: url("images/convocation_img.png");
+    background-size: 100vh;
+  }
+  .container3 {
+    top: 40vh;
   }
   .date {
     font-size: 5vh;
